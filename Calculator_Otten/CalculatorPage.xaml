@@ -4,7 +4,7 @@
              x:Class="Calculator_Otten.CalculatorPage"
              Title="CalculatorPage">
 
-    <Grid RowDefinitions="*, 2*">
+    <Grid RowDefinitions="*, Auto">
 
         <VerticalStackLayout Grid.Row="0"
                              Padding="20"
@@ -17,67 +17,85 @@
         </VerticalStackLayout>
 
         <Grid Grid.Row="1"
-              RowDefinitions="*,*,*,*,*"
-              ColumnDefinitions="*,*,*,*"
+              RowDefinitions="Auto,Auto,Auto,Auto,Auto"
+              ColumnDefinitions="Auto,Auto,Auto,Auto"
               Padding="10">
 
             <Button Text="AC" BackgroundColor="LightGrey"
-                Grid.Row="0" Grid.Column="0" CornerRadius="35"/>
+                Grid.Row="0" Grid.Column="0"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35"/>
 
             <Button Text="+/-" BackgroundColor="LightGrey"
-                Grid.Row="0" Grid.Column="1" CornerRadius="35"/>
+                Grid.Row="0" Grid.Column="1"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35"/>
 
             <Button Text="%" BackgroundColor="LightGrey"
-                Grid.Row="0" Grid.Column="2" CornerRadius="35"/>
+                Grid.Row="0" Grid.Column="2"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35"/>
 
             <Button Text="&#x00F7;" BackgroundColor="Orange"
-                Grid.Row="0" Grid.Column="3" CornerRadius="35"/>
+                Grid.Row="0" Grid.Column="3"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35"/>
 
             <Button Text="7" BackgroundColor="DarkGrey"
-                Grid.Row="1" Grid.Column="0" CornerRadius="35"/>
+                Grid.Row="1" Grid.Column="0"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35"/>
 
             <Button Text="8" BackgroundColor="DarkGrey"
-                Grid.Row="1" Grid.Column="1" CornerRadius="35"/>
+                Grid.Row="1" Grid.Column="1"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35"/>
 
             <Button Text="9" BackgroundColor="DarkGrey"
-                Grid.Row="1" Grid.Column="2" CornerRadius="35"/>
+                Grid.Row="1" Grid.Column="2"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35"/>
 
             <Button Text="&#x00D7;" BackgroundColor="Orange"
-                Grid.Row="1" Grid.Column="3" CornerRadius="35"/>
+                Grid.Row="1" Grid.Column="3"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35"/>
 
             <Button Text="4" BackgroundColor="DarkGrey"
-                Grid.Row="2" Grid.Column="0" CornerRadius="35"/>
+                Grid.Row="2" Grid.Column="0"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35"/>
 
             <Button Text="5" BackgroundColor="DarkGrey"
-                Grid.Row="2" Grid.Column="1" CornerRadius="35"/>
+                Grid.Row="2" Grid.Column="1"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35"/>
 
             <Button Text="6" BackgroundColor="DarkGrey"
-                Grid.Row="2" Grid.Column="2" CornerRadius="35"/>
+                Grid.Row="2" Grid.Column="2"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35"/>
 
             <Button Text="-" BackgroundColor="Orange"
-                Grid.Row="2" Grid.Column="3" CornerRadius="35"/>
+                Grid.Row="2" Grid.Column="3"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35"/>
 
             <Button Text="1" BackgroundColor="DarkGrey"
-                Grid.Row="3" Grid.Column="0" CornerRadius="35"/>
+                Grid.Row="3" Grid.Column="0"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35"/>
 
             <Button Text="2" BackgroundColor="DarkGrey"
-                Grid.Row="3" Grid.Column="1" CornerRadius="35"/>
+                Grid.Row="3" Grid.Column="1"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35"/>
 
             <Button Text="3" BackgroundColor="DarkGrey"
-                Grid.Row="3" Grid.Column="2" CornerRadius="35"/>
+                Grid.Row="3" Grid.Column="2"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35"/>
 
             <Button Text="+" BackgroundColor="Orange"
-                Grid.Row="3" Grid.Column="3" CornerRadius="35"/>
+                Grid.Row="3" Grid.Column="3"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35"/>
 
             <Button Text="0" BackgroundColor="DarkGrey"
                 Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2"
-                CornerRadius="35"/>
+                HeightRequest="70" WidthRequest="150" CornerRadius="35"/>
 
             <Button Text="." BackgroundColor="DarkGrey"
-                Grid.Row="4" Grid.Column="2" CornerRadius="35"/>
+                Grid.Row="4" Grid.Column="2"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35"/>
 
             <Button Text="=" BackgroundColor="Orange"
-                Grid.Row="4" Grid.Column="3" CornerRadius="35"/>
+                Grid.Row="4" Grid.Column="3"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35"/>
 
         </Grid>
 
